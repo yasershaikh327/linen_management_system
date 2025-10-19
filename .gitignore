@@ -1,7 +1,35 @@
-bin/
-obj/
+# Visual Studio
 .vs/
 *.user
 *.suo
-*.log
-appsettings.Development.json
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+out/
+
+# Rider, Resharper
+.idea/
+*.dotCover
+
+# ASP.NET
+appsettings.Secrets.json
+appsettings.Local.json
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Publish output
+publish/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+dotnet user-secrets init
+dotnet user-secrets set "MySecret" "value"
+
