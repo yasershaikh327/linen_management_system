@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 // Serve static files from wwwroot
+app.UseDefaultFiles();
 app.UseStaticFiles();
 
 // Optional: Swagger UI for development only
@@ -21,6 +22,7 @@ app.UseStaticFiles();
 
 // Remove HTTPS redirection for Render (Render automatically handles HTTPS)
 // app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 
