@@ -49,3 +49,8 @@ Thumbs.db
 LICENSE
 README.md
  
+bin/
+obj/
+.vs/
+.git/
+*.user
