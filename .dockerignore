@@ -1,30 +1,50 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
-**/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/azds.yaml
-**/bin
-**/charts
-**/docker-compose*
-**/Dockerfile*
-**/node_modules
-**/npm-debug.log
-**/obj
-**/secrets.dev.yaml
-**/values.dev.yaml
-LICENSE
-README.md
-!**/.gitignore
+# Build outputs
+bin/
+obj/
+publish/
+
+# Visual Studio & IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.dbmdl
+*.jfm
+.classpath
+.project
+.settings
+.toolstarget
+
+# Git & version control
+.git/
+.gitignore
+!.gitignore
 !.git/HEAD
 !.git/config
 !.git/packed-refs
 !.git/refs/heads/**
+
+# Node/npm (if present)
+node_modules/
+npm-debug.log
+
+# Docker / Compose / Helm
+Dockerfile*
+docker-compose*
+charts/
+
+# Environment / secrets / local configs
+.env
+secrets.dev.yaml
+values.dev.yaml
+azds.yaml
+appsettings.Development.json
+appsettings.Local.json
+
+# OS & temp files
+.DS_Store
+Thumbs.db
+
+# Documentation & misc
+LICENSE
+README.md
