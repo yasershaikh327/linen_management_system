@@ -1,3 +1,6 @@
+using API.Mapper;
+using DataAccess.Interface;
+using DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
 using ResturantApp.Data;
 
@@ -7,8 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 // Configure PostgreSQL
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IStudentDTOMapperToStudent, StudentDTOMapperToStudent>();
+builder.Services.AddScoped<Irepository, Repository>();
 
 var app = builder.Build();
 

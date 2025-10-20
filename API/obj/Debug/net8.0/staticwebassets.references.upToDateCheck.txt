@@ -1,0 +1,6 @@
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\syase\source\repos\ResturantApp\obj\Debug\net8.0\staticwebassets.build.json
