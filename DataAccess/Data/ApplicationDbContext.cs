@@ -11,7 +11,7 @@ namespace ResturantApp.Data
         {
         }
 
-        public DbSet<Student> student { get; set; }  // example table
+        public DbSet<Resturant> resturant { get; set; }  
     }
 
 }

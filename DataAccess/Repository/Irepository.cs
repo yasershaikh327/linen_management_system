@@ -10,6 +10,8 @@ namespace DataAccess.Interface
 {
     public interface Irepository
     {
-        public List<Student> GetStudents();
+        public List<Resturant> GetResturants();
+        public void AddResturants(Resturant resturant);
+        public void UpdateResturantByID(Resturant resturant);
     }
 }
