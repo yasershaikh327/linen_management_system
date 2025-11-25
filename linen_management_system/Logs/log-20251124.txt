@@ -1,0 +1,188 @@
+2025-11-24 20:42:13.447 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 20:42:13.693 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 20:42:13.845 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 20:42:13.845 +05:30 [INF] Hosting environment: Development
+2025-11-24 20:42:13.845 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 20:42:13.905 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 217.834ms
+2025-11-24 20:42:14.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:42:14.019 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 4.1418ms
+2025-11-24 20:42:14.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 20:42:14.224 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 196.5375ms
+2025-11-24 20:42:14.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 20:42:14.422 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.6415ms
+2025-11-24 20:47:13.377 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 20:47:13.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 20:47:13.829 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 20:47:13.830 +05:30 [INF] Hosting environment: Development
+2025-11-24 20:47:13.830 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 20:47:13.946 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 284.4025ms
+2025-11-24 21:39:28.301 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:39:29.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:39:29.392 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:39:29.392 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:39:29.392 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:39:29.594 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 401.7493ms
+2025-11-24 21:39:29.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:39:29.642 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:39:29.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 6.1485ms
+2025-11-24 21:39:29.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.0795ms
+2025-11-24 21:39:29.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:39:29.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0258ms
+2025-11-24 21:39:36.222 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:39:36.561 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:39:36.612 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:40:27.119 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:40:27.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:40:27.591 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:40:27.592 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:40:27.592 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:40:27.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 338.7637ms
+2025-11-24 21:40:27.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:40:27.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:40:27.778 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 5.2692ms
+2025-11-24 21:40:27.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3577ms
+2025-11-24 21:40:27.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:40:27.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.5998ms
+2025-11-24 21:40:31.950 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:40:32.058 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:40:32.104 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:42:50.677 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:42:51.023 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:42:51.172 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:42:51.173 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:42:51.173 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:42:51.327 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 315.5823ms
+2025-11-24 21:42:51.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:42:51.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:42:51.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 4.0454ms
+2025-11-24 21:42:51.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3433ms
+2025-11-24 21:42:51.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:42:51.433 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0306ms
+2025-11-24 21:42:52.995 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:42:53.131 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:42:53.172 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:42:55.939 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 2764.7158ms
+2025-11-24 21:42:55.941 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:42:55.955 +05:30 [ERR] Exception: Method not found: 'Microsoft.EntityFrameworkCore.Storage.CoreTypeMapping Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceBase.FindMapping(System.Type, Microsoft.EntityFrameworkCore.Metadata.IModel)'.
+System.MissingMethodException: Method not found: 'Microsoft.EntityFrameworkCore.Storage.CoreTypeMapping Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceBase.FindMapping(System.Type, Microsoft.EntityFrameworkCore.Metadata.IModel)'.
+   at Microsoft.Extensions.DependencyInjection.SqlServerServiceCollectionExtensions.AddEntityFrameworkSqlServer(IServiceCollection serviceCollection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at LinenManagementAPI.Data.ApplicationDbContext..ctor(DbContextOptions`1 options) in C:\Users\syase\source\repos\DataAccess\DatabaseContext\LinenDbContext.cs:line 8
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at DataAccess.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\syase\source\repos\DataAccess\Middleware\GlobalExceptionMiddleware.cs:line 29
+2025-11-24 21:42:55.975 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 500 null application/json 2980.3359ms
+2025-11-24 21:43:00.962 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:43:00.968 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:43:00.968 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:43:38.609 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:43:38.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:43:39.161 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:43:39.161 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:43:39.161 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:43:39.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 317.1466ms
+2025-11-24 21:43:39.196 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:43:39.196 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:43:39.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 4.8297ms
+2025-11-24 21:43:39.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.8617ms
+2025-11-24 21:43:39.271 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:43:39.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6007ms
+2025-11-24 21:43:40.959 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:43:41.048 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:43:41.079 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:44:33.631 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:44:33.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:44:34.054 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:44:34.055 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:44:34.055 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:44:34.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 341.0634ms
+2025-11-24 21:44:34.285 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:44:34.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:44:34.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 7.1673ms
+2025-11-24 21:44:34.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.1124ms
+2025-11-24 21:44:34.354 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:44:34.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.3589ms
+2025-11-24 21:44:37.196 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:44:37.540 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:44:37.566 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:45:10.483 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:45:10.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:45:10.839 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:45:10.839 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:45:10.839 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:45:11.010 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 311.3114ms
+2025-11-24 21:45:11.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:45:11.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:45:11.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 5.5123ms
+2025-11-24 21:45:11.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3544ms
+2025-11-24 21:45:11.095 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:45:11.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.8897ms
+2025-11-24 21:45:13.201 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:45:13.319 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:45:13.365 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:47:09.651 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:47:09.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-24 21:47:10.049 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:47:10.049 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:47:10.049 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-24 21:47:10.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 306.813ms
+2025-11-24 21:47:10.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:47:10.214 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-24 21:47:10.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 5.4768ms
+2025-11-24 21:47:10.266 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.0699ms
+2025-11-24 21:47:10.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-24 21:47:10.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.9638ms
+2025-11-24 21:47:11.895 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-24 21:47:12.017 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:47:12.044 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-24 21:47:12.910 +05:30 [WRN] No store type was specified for the decimal property 'Weight' on entity type 'Linen'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 21:47:14.119 +05:30 [INF] Executed DbCommand (142ms) [Parameters=[@__request_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Email], [e].[Name], [e].[Password], [e].[RefreshToken]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__request_Email_0
+2025-11-24 21:47:14.775 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [RefreshToken] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+2025-11-24 21:47:14.798 +05:30 [INF] Login successful: john@tdss.com
+2025-11-24 21:47:14.809 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LinenManagementAPI.DTOs.AuthResponse, linen_management_system, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 21:47:14.826 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 2778.6875ms
+2025-11-24 21:47:14.827 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-24 21:47:14.837 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 200 null application/json; charset=utf-8 2942.3761ms

@@ -1,0 +1,80 @@
+2025-11-25 20:13:32.129 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-25 20:13:32.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-25 20:13:33.382 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-25 20:13:33.383 +05:30 [INF] Hosting environment: Development
+2025-11-25 20:13:33.383 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-25 20:13:34.543 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 1574.728ms
+2025-11-25 20:13:34.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-25 20:13:34.727 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-25 20:13:34.736 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 9.3253ms
+2025-11-25 20:13:34.832 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.9867ms
+2025-11-25 20:13:35.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-25 20:13:35.083 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.1756ms
+2025-11-25 20:13:39.547 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-25 20:13:39.877 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:13:39.973 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-25 20:13:42.890 +05:30 [WRN] No store type was specified for the decimal property 'Weight' on entity type 'Linen'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-25 20:13:46.051 +05:30 [INF] Executed DbCommand (109ms) [Parameters=[@__request_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Email], [e].[Name], [e].[Password], [e].[RefreshToken]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__request_Email_0
+2025-11-25 20:13:46.676 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [RefreshToken] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+2025-11-25 20:13:46.696 +05:30 [INF] Login successful: john@tdss.com
+2025-11-25 20:13:46.708 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LinenManagementAPI.DTOs.AuthResponse, linen_management_system, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-25 20:13:46.722 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 6743.9077ms
+2025-11-25 20:13:46.722 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:13:46.729 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 200 null application/json; charset=utf-8 7182.2007ms
+2025-11-25 20:44:41.711 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-25 20:44:42.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-25 20:44:42.067 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-25 20:44:42.158 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-25 20:44:42.158 +05:30 [INF] Hosting environment: Development
+2025-11-25 20:44:42.158 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_systems\linen_management_system
+2025-11-25 20:44:42.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 449.0389ms
+2025-11-25 20:44:42.509 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:44:42.538 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-25 20:44:42.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-25 20:44:42.579 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 4.8555ms
+2025-11-25 20:44:42.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-25 20:44:42.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.3954ms
+2025-11-25 20:44:42.894 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-25 20:44:42.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.7386ms
+2025-11-25 20:44:43.280 +05:30 [WRN] No store type was specified for the decimal property 'Weight' on entity type 'Linen'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-25 20:44:44.391 +05:30 [INF] Executed DbCommand (99ms) [Parameters=[@__request_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Email], [e].[Name], [e].[Password], [e].[RefreshToken]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__request_Email_0
+2025-11-25 20:44:46.062 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [RefreshToken] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+2025-11-25 20:44:46.118 +05:30 [INF] Login successful: john@tdss.com
+2025-11-25 20:44:46.147 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LinenManagementAPI.DTOs.AuthResponse, linen_management_system, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-25 20:44:46.183 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 3634.5615ms
+2025-11-25 20:44:46.185 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:44:46.217 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 200 null application/json; charset=utf-8 4160.3204ms
+2025-11-25 20:44:51.204 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:44347/api/auth/login - application/json 56
+2025-11-25 20:44:51.212 +05:30 [INF] Executing endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:44:51.213 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LinenManagementAPI.DTOs.LoginRequest) on controller LinenManagement.Controllers.AuthController (linen_management_system).
+2025-11-25 20:44:51.285 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__request_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeId], [e].[Email], [e].[Name], [e].[Password], [e].[RefreshToken]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__request_Email_0
+2025-11-25 20:44:51.995 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [RefreshToken] = @p0
+OUTPUT 1
+WHERE [EmployeeId] = @p1;
+2025-11-25 20:44:51.996 +05:30 [INF] Login successful: john@tdss.com
+2025-11-25 20:44:51.998 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LinenManagementAPI.DTOs.AuthResponse, linen_management_system, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-25 20:44:52.000 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 786.9075ms
+2025-11-25 20:44:52.000 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
+2025-11-25 20:44:52.001 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 200 null application/json; charset=utf-8 797.4244ms
