@@ -1,3 +1,0 @@
-dotnet ef migrations add AddResturantTable --project ../DataAccess --startup-project .
-dotnet ef database update --project ../DataAccess --startup-project .
-dotnet ef database update

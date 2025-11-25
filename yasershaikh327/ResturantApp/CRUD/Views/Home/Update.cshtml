@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Edit Student";
+    ViewData["MetaDesc"] = "My Meta Desc";
+    var info = ViewData["Message"];
+    @model CRUD.Models.Student;
+}
+
+<h1>Update Page</h1>
+<form asp-action="UpdateData" asp-controller="Home" method="post">
+    <input type="text" asp-for="@Model.Id" readonly />
+    <label>Enter Your Name <span style="color:red;font-weight:900;">*</span></label>
+    <input type="text" asp-for="@Model.Name" />
+    <input type="submit" value="submit"/>
+</form>
+<br />
+<br />
+@if (TempData["Message"] != null)
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Message"]
+        </div>
+    }
