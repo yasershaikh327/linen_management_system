@@ -78,3 +78,15 @@ WHERE [EmployeeId] = @p1;
 2025-11-25 20:44:52.000 +05:30 [INF] Executed action LinenManagement.Controllers.AuthController.Login (linen_management_system) in 786.9075ms
 2025-11-25 20:44:52.000 +05:30 [INF] Executed endpoint 'LinenManagement.Controllers.AuthController.Login (linen_management_system)'
 2025-11-25 20:44:52.001 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:44347/api/auth/login - 200 null application/json; charset=utf-8 797.4244ms
+2025-11-25 21:08:55.972 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-25 21:08:56.717 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-25 21:08:57.090 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-25 21:08:57.091 +05:30 [INF] Hosting environment: Development
+2025-11-25 21:08:57.091 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-25 21:08:58.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 1438.1471ms
+2025-11-25 21:08:58.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-25 21:08:58.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/_vs/browserLink - null null
+2025-11-25 21:08:58.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 11.2292ms
+2025-11-25 21:08:58.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/_vs/browserLink - 200 null text/javascript; charset=UTF-8 220.5518ms
+2025-11-25 21:08:58.450 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - null null
+2025-11-25 21:08:58.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.8487ms

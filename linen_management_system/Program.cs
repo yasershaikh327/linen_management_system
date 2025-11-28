@@ -33,7 +33,6 @@ builder.Services.Configure<JwtSettings>(
 );
 
 
-builder.Services.AddSingleton<IFileLogger, FileLogger>();
 builder.Services.AddScoped<IHashPassword, HashPassword>();
 
 

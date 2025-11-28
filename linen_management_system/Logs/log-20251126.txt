@@ -1,0 +1,6 @@
+2025-11-26 19:29:12.644 +05:30 [INF] User profile is available. Using 'C:\Users\syase\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-26 19:29:12.959 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - null null
+2025-11-26 19:29:13.088 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-26 19:29:13.089 +05:30 [INF] Hosting environment: Development
+2025-11-26 19:29:13.089 +05:30 [INF] Content root path: C:\Users\syase\source\repos\linen_management_system
+2025-11-26 19:29:13.805 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - 200 null text/html;charset=utf-8 856.8795ms

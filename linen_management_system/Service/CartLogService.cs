@@ -65,72 +65,7 @@ namespace LinenManagement.Services
             return dto;
         }
 
-        //public async Task<CartLogDto> UpsertCartLogAsync(CartLogDto request, int currentEmployeeId)
-        //{
-        //    CartLog cartLog;
-
-        //    // Check if updating (CartLogId > 0 means existing record)
-        //    if (request.CartLogId > 0)
-        //    {
-        //        // Fetch the existing CartLog
-        //        cartLog = await _context.CartLogs.FindAsync(request.CartLogId);
-        //        if (cartLog == null)
-        //            throw new KeyNotFoundException("CartLog not found");
-
-        //        // Verify authorization
-        //        if (cartLog.EmployeeId != currentEmployeeId)
-        //            throw new UnauthorizedAccessException("Only creator can edit");
-
-        //        // Update fields
-        //        cartLog.ReceiptNumber = request.ReceiptNumber ?? string.Empty;
-        //        cartLog.Comments = request.Comments ?? string.Empty;
-        //        cartLog.ReportedWeight = request.ReportedWeight;
-        //        cartLog.ActualWeight = request.ActualWeight;
-        //        cartLog.DateWeighed = request.DateWeighed;
-        //        cartLog.CartId = request.CartId;
-        //        cartLog.LocationId = request.LocationId;
-
-        //        // Remove old linen details
-        //        var oldDetails = await _context.CartLogDetails
-        //            .Where(d => d.CartLogId == cartLog.CartLogId)
-        //            .ToListAsync();
-        //        _context.CartLogDetails.RemoveRange(oldDetails);
-        //    }
-        //    else // Create new
-        //    {
-        //        cartLog = new CartLog
-        //        {
-        //            ReceiptNumber = request.ReceiptNumber ?? string.Empty,
-        //            Comments = request.Comments ?? string.Empty,
-        //            ReportedWeight = request.ReportedWeight,
-        //            ActualWeight = request.ActualWeight,
-        //            DateWeighed = request.DateWeighed,
-        //            CartId = request.CartId,
-        //            LocationId = request.LocationId,
-        //            EmployeeId = currentEmployeeId
-        //        };
-        //        _context.CartLogs.Add(cartLog);
-        //    }
-
-        //    // Save CartLog (create or update)
-        //    await _context.SaveChangesAsync();
-
-        //    // Add new linen details
-        //    if (request.Linen?.Count > 0)
-        //    {
-        //        var linenDetails = request.Linen.Select(l => new CartLogDetail
-        //        {
-        //            CartLogId = cartLog.CartLogId,
-        //            LinenId = l.LinenId,
-        //            Count = l.Count
-        //        }).ToList();
-
-        //        _context.CartLogDetails.AddRange(linenDetails);
-        //        await _context.SaveChangesAsync();
-        //    }
-
-        //    return await GetCartLogByIdAsync(cartLog.CartLogId);
-        //}
+      
         public async Task<CartLogDto> UpsertCartLogAsync(CartLogDto request, int currentEmployeeId)
         {
             CartLog cartLog = null;
