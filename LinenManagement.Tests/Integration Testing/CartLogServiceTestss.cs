@@ -30,9 +30,7 @@ public class CartLogServiceTestsss
         SeedTestData();
     }
 
-    // ----------------------------------------
-    // 🚀 SEED DATA
-    // ----------------------------------------
+
     private void SeedTestData()
     {
         _db.Carts.Add(new Cart { CartId = 1,Name= "Cart - Medium", Type = "CLEAN" });
@@ -44,9 +42,7 @@ public class CartLogServiceTestsss
         _db.SaveChanges();
     }
 
-    // ----------------------------------------
-    // ✅ TEST: CREATE CartLog
-    // ----------------------------------------
+
     [Fact]
     public async Task UpsertCartLog_ShouldCreateCartLog()
     {
@@ -72,9 +68,7 @@ public class CartLogServiceTestsss
         Assert.Single(result.Linen);
     }
 
-    // ----------------------------------------
-    // ✅ TEST: UPDATE CartLog
-    // ----------------------------------------
+
     [Fact]
     public async Task UpsertCartLog_ShouldUpdateCartLog()
     {
@@ -114,9 +108,6 @@ public class CartLogServiceTestsss
         Assert.Equal(2, updated.Linen[0].LinenId);
     }
 
-    // ----------------------------------------
-    // ✅ TEST: FETCH by ID
-    // ----------------------------------------
     [Fact]
     public async Task GetCartLogById_ShouldReturnCorrectData()
     {
@@ -142,9 +133,7 @@ public class CartLogServiceTestsss
         Assert.Equal(1, result.Linen[0].LinenId);
     }
 
-    // ----------------------------------------
-    // ✅ TEST: GET list with filters
-    // ----------------------------------------
+
     [Fact]
     public async Task GetCartLogsAsync_ShouldFilterByCartType()
     {
@@ -174,9 +163,6 @@ public class CartLogServiceTestsss
         Assert.Equal(20, result.First().CartLogId);
     }
 
-    // ----------------------------------------
-    // ✅ TEST: DELETE
-    // ----------------------------------------
     [Fact]
     public async Task DeleteCartLog_ShouldRemoveData()
     {
