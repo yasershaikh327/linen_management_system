@@ -24,9 +24,6 @@ public class CartLogServiceTestss
         return new CartLogService(context, logger.Object);
     }
 
-    // ======================================================================
-    // 1️⃣ GET CART LOG BY ID — SUCCESS
-    // ======================================================================
     [Fact]
     public async Task GetCartLogByIdAsync_Should_Return_Dto()
     {
@@ -56,9 +53,6 @@ public class CartLogServiceTestss
         Assert.Equal("Bedsheet - Medium", result.Linen.First().Name);
     }
 
-    // ======================================================================
-    // 2️⃣ GET — FAIL WHEN NOT FOUND
-    // ======================================================================
     [Fact]
     public async Task GetCartLogByIdAsync_Should_Throw_When_NotFound()
     {
@@ -70,9 +64,7 @@ public class CartLogServiceTestss
             service.GetCartLogByIdAsync(999));
     }
 
-    // ======================================================================
-    // 3️⃣ UPSERT — CREATE NEW CARTLOG
-    // ======================================================================
+
     [Fact]
     public async Task UpsertCartLogAsync_Should_Create_New_Record()
     {
@@ -103,9 +95,7 @@ public class CartLogServiceTestss
         Assert.Equal(99, result.EmployeeId);
     }
 
-    // ======================================================================
-    // 4️⃣ UPSERT — UPDATE EXISTING CARTLOG
-    // ======================================================================
+ 
     [Fact]
     public async Task UpsertCartLogAsync_Should_Update_Record()
     {
@@ -152,9 +142,7 @@ public class CartLogServiceTestss
         Assert.Equal(10, updated.Linen.First().Count);
     }
 
-    // ======================================================================
-    // 5️⃣ UPSERT — FAIL WHEN NOT OWNER
-    // ======================================================================
+
     [Fact]
     public async Task UpsertCartLogAsync_Should_Throw_When_Unauthorized()
     {
@@ -172,9 +160,6 @@ public class CartLogServiceTestss
             service.UpsertCartLogAsync(dto, currentEmployeeId: 999));
     }
 
-    // ======================================================================
-    // 6️⃣ GET LIST — FILTER BY CART TYPE + LOCATION + EMPLOYEE
-    // ======================================================================
     [Fact]
     public async Task GetCartLogsAsync_Should_Filter_Records()
     {
@@ -198,9 +183,7 @@ public class CartLogServiceTestss
         Assert.Equal(1, result.First().CartLogId);
     }
 
-    // ======================================================================
-    // 7️⃣ DELETE — SUCCESS
-    // ======================================================================
+ 
     [Fact]
     public async Task DeleteCartLogAsync_Should_Delete_Record()
     {
@@ -219,9 +202,7 @@ public class CartLogServiceTestss
         Assert.Empty(context.CartLogDetails);
     }
 
-    // ======================================================================
-    // 8️⃣ DELETE — FAIL WHEN UNAUTHORIZED
-    // ======================================================================
+  
     [Fact]
     public async Task DeleteCartLogAsync_Should_Throw_When_Unauthorized()
     {

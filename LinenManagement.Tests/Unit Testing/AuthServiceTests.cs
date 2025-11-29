@@ -28,9 +28,7 @@ public class AuthServiceTests
         return new AuthService(context, helperMock.Object, loggerMock.Object);
     }
 
-    // ---------------------------------------------------------
-    // 1️⃣ LOGIN SUCCESS
-    // ---------------------------------------------------------
+  
     [Fact]
     public async Task LoginAsync_Should_Return_Tokens_When_Credentials_Valid()
     {
@@ -67,9 +65,6 @@ public class AuthServiceTests
         Assert.Equal("refresh123", updatedEmployee.RefreshToken);
     }
 
-    // ---------------------------------------------------------
-    // 2️⃣ LOGIN FAIL (INVALID PASSWORD)
-    // ---------------------------------------------------------
     [Fact]
     public async Task LoginAsync_Should_Throw_When_Password_Wrong()
     {
@@ -98,9 +93,7 @@ public class AuthServiceTests
             }));
     }
 
-    // ---------------------------------------------------------
-    // 3️⃣ REFRESH TOKEN SUCCESS
-    // ---------------------------------------------------------
+  
     [Fact]
     public async Task RefreshTokenAsync_Should_Generate_New_Tokens()
     {
@@ -132,9 +125,7 @@ public class AuthServiceTests
         Assert.Equal("newRefresh", emp.RefreshToken);
     }
 
-    // ---------------------------------------------------------
-    // 4️⃣ REFRESH TOKEN FAIL
-    // ---------------------------------------------------------
+ 
     [Fact]
     public async Task RefreshTokenAsync_Should_Throw_When_Token_Invalid()
     {
@@ -147,9 +138,7 @@ public class AuthServiceTests
             service.RefreshTokenAsync("doesnotexist"));
     }
 
-    // ---------------------------------------------------------
-    // 5️⃣ LOGOUT SUCCESS
-    // ---------------------------------------------------------
+
     [Fact]
     public async Task LogoutAsync_Should_Clear_RefreshToken()
     {
@@ -174,9 +163,7 @@ public class AuthServiceTests
         Assert.Null(emp.RefreshToken);
     }
 
-    // ---------------------------------------------------------
-    // 6️⃣ LOGOUT (NO EMPLOYEE)
-    // ---------------------------------------------------------
+
     [Fact]
     public async Task LogoutAsync_Should_Not_Fail_When_Employee_Not_Found()
     {
