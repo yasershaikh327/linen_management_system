@@ -58,8 +58,8 @@ namespace linen_management_system.Helper
     };
 
             var token = new JwtSecurityToken(
-                issuer: _config["JwtSettings:Issuer"],   // <-- corrected
-                audience: _config["JwtSettings:Audience"], // <-- corrected
+                issuer: _config["JwtSettings:Issuer"],   
+                audience: _config["JwtSettings:Audience"], 
                 claims: claims,
                 expires: DateTime.UtcNow.AddMinutes(int.Parse(_config["JwtSettings:ExpiryMinutes"])),
                 signingCredentials: creds
